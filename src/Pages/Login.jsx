@@ -30,7 +30,7 @@ const Login = () => {
     onSubmit: async (values) => {
       const payload = { email: values.email, password: values.password };
       try {
-        const res = await axios.post("http://localhost:4000/api/user/login-user", payload)
+        const res = await axios.post("https://password-reset-backend-kkfw.onrender.com/api/user/login-user", payload)
         setMsg(res.data.message)
         setShowToast(true);
         setToastType("success");

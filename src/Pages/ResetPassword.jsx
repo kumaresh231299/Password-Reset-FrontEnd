@@ -36,8 +36,8 @@ const ResetPassword = () => {
         onSubmit: async (values) => {
             const payload = { newPassword: values.newPassword };
             try {
-                const res = await axios.put(`http://localhost:4000/api/user/reset-password/${id}/${token}`, payload)
-                setMsg(res.data.message)
+                const res = await axios.put(`https://password-reset-backend-kkfw.onrender.com/api/user/reset-password/${id}/${token}`, payload)
+                setMsg(res.data.message)                                                    
                 setShowToast(true);
                 setToastType("success");
                 setTimeout(() => {

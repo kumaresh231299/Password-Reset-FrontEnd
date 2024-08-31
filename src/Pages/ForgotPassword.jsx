@@ -25,7 +25,7 @@ const ForgotPassword = () => {
         onSubmit: async (values) => {
             const payload = { email: values.email };
             try {
-                const res = await axios.post("http://localhost:4000/api/user/forgot-password", payload)
+                const res = await axios.post("https://password-reset-backend-kkfw.onrender.com/api/user/forgot-password", payload)
                 setMsg(res.data.message)
                 setShowToast(true);
                 setToastType("success");

@@ -37,7 +37,7 @@ const Register = () => {
     onSubmit: async (values) => {
       const payload = { username: values.username, email: values.email, password: values.password };
       try {
-        const res = await axios.post("http://localhost:4000/api/user/register-user", payload);
+        const res = await axios.post("https://password-reset-backend-kkfw.onrender.com/api/user/register-user", payload);
         setMsg(res.data.message);
         setShowToast(true);
         setToastType("success");
