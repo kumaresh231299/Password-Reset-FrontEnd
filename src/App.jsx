@@ -20,7 +20,7 @@ const App = () => {
         <Route path='/forgot-password' element={<ForgotPassword />}/>
         <Route path='/reset-password/:id/:token' element={<ResetPassword />}/>
         <Route path='/reset-password' element={<ResetPassword />}/>
-        <Route path='*' element={<ErrorPage />}/>
+        {/* <Route path='*' element={<ErrorPage />}/> */}
       </Routes>
       </BrowserRouter>
     </div>
