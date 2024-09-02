@@ -49,4 +49,9 @@ The UI components are designed to be simple and user-friendly.
 2. Vite : A bulit tool that provides a fast development environment.
 3. Formik : Formiks library for handling form state and validation.
 4. Yup : Schema bulider for runtime value parsing and validation.
-5. React-Bootstrap : Icons for React components.
+5. React-Bootstrap : Bootstrap components for React.
+6. React-Icons : Icons for React components.
+
+## Deployment
+
+https://password-reset-sk.netlify.app/
