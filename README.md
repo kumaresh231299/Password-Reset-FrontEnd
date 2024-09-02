@@ -54,4 +54,4 @@ The UI components are designed to be simple and user-friendly.
 
 ## Deployment
 
-https://password-reset-sk.netlify.app/
+https://password-reset-frontend-sk.netlify.app/
